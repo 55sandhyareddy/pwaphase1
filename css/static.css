@@ -1,0 +1,62 @@
+.left{
+  background:lightblue;
+}
+.left{
+  width:30%;
+  border:2px solid pink;
+  border-radius:5px;
+  text-align: center;
+}
+.right{
+  width:70%;
+  border:2px solid lightpink;
+  border-radius:5px;
+  background:lightblue;
+  margin:2%;
+  padding:1%;
+
+}
+.parent{
+  display:flex;
+  margin:2%;
+
+}
+img{
+  width:30%;
+  border:2px solid blue;
+}
+table{
+  width:100%;
+}
+table th,td{
+  border:2px solid blue;
+  border-collapse: collapse;
+  font-style: oblique;
+
+}
+table tr:nth-child(even){
+  background:lightpink;
+}
+@media screen and (max-width:767px) {
+  .parent{
+    flex-wrap:wrap;
+  }
+  .left,.right{
+    font-size:10px;
+    width: 100%;
+  }
+}
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .parent{
+      justify-content: center;
+      background-color:grey;
+    }
+    .left{
+          width:50%;
+      background:lightgreen;
+    }
+    .right{
+      width:50%;
+      background-color:lightblue;
+    }
+  }

@@ -1,0 +1,48 @@
+body{
+  background:#3EF20D;
+  text-align: center;
+}
+h1{
+  color:#199F86;
+  font-weight:400;
+  font-style:oblique;
+}
+.parent{
+  background:#D6F20D;
+  border-radius: 5%;
+  display:flex;
+  justify-content:center;
+  margin:5%;
+  padding:3%;
+  border:9px solid #191B9F;s
+
+}
+.child{
+  background:#12DFCB  ;
+  border-radius:5%;
+  width:30%;
+  border:2px solid #191B9F;
+  padding:3%;
+  margin:2%;
+  text-align:center;
+}
+img{
+  width:90%;
+  height:40%;
+}
+@media screen and (max-width:767px) {
+  .parent{
+    flex-wrap:wrap;
+  }
+  .child{
+    width:100%;
+  }
+}
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .parent{
+      flex-wrap:wrap;
+    }
+    .child{
+      width:30%;
+    }
+  }

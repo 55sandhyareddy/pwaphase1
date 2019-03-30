@@ -1,0 +1,46 @@
+{
+  "profile":{
+    "image":"images/sanju.jpg",
+    "name":"sandhyaReddy",
+    "design":"Student",
+    "mobile":"9182302666",
+    "email":"sandhyareddy3414@gmail.com"
+  },
+  "carrer":{
+    "info":"To study"
+  },
+  "education":
+  [
+    {
+
+      "Sno":"1",
+      "nameoftheinstitute":"MITS",
+      "affliated":"JNTU",
+      "qualification":"Btech",
+      "percentage":"95"
+  },
+  {
+    "Sno":"2",
+    "nameoftheinstitute":"Chaitanya",
+    "affliated":"sv",
+    "qualification":"Intermediate",
+    "percentage":"97"
+  },
+  {
+    "Sno":"3",
+    "nameoftheinstitute":"viswam",
+    "affliated":"sv",
+    "qualification":"ssc",
+    "percentage":"99"
+  }
+],
+"skills":[{
+  "name":"webTechnologies",
+  "info":["Html","css","js"]
+},
+{
+  "name":"databases",
+  "info":["jdbc","firebase","sql"]
+}
+]
+}
